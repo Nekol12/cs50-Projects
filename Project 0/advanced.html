@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "headerAdvanced">
+            <div class="advanced-body">
+                <img class="google-img-little" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png" alt="Google.png">
+            </div>
+            <a href="index.html">Google Search</a>
+        </div>
+        
+        <div class="subHeader">
+            <h3 id="advancedText">Advanced Search</h3>
+        </div>
+
+        <form action="https://google.com/search">
+            <div class="inputOpts">
+                <div class="optionsHeader">Find Pages with...</div>
+                <div class="diffInputs"></div>
+                <div class="toDohead">To do this in the search box.</div>
+            </div>
+
+            <div class="inputOpts">
+                <div class="option">all these words:</div>
+                <div class="diffInputs">
+                    <input type="text" name="as_q">
+                </div>
+                <div class="toDo">
+                    Type the important words: <span>rat terrier</span>
+                </div>
+            </div>
+
+            <div class="inputOpts">
+                <div class="option">this exact word or phrase:</div>
+                <div class="diffInputs">
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="toDo">
+                    Put exact words in quotes: <span>"rat terrier"</span>
+                </div>
+            </div>
+
+            <div class="inputOpts">
+                <div class="option">any of these words:</div>
+                <div class="diffInputs">
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="toDo">
+                    Type OR between all of the words you want: 
+                    <span>miniature OR standard</span>
+                </div>
+            </div>
+
+            <div class="inputOpts">
+                <div class="option">none of these words:</div>
+                <div class="diffInputs">
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="toDo">
+                    Put a minus sign just before words that you don't want: 
+                    <span>-rodent, -"Jack Russell"</span>
+                </div>
+            </div>
+            <div class="inputOpts">
+                <div class="option"></div>
+                <div class="advancedButton">
+                    <input type="submit" value="Advanced Search" name= "btnK">
+                </div>
+            </div>
+        </form>
+        
+    </body>
+</html>

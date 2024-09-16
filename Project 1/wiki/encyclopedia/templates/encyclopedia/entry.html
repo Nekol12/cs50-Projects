@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    {{title}}
+{% endblock %}
+
+{% block body %}
+
+    <div class="entry-div">
+        {{content|safe}}
+    </div>
+
+    <div class="mx-auto p-2" >
+        <form action="{%url 'edit_page' page_title=title%}" method="GET" >
+            {% csrf_token %}
+            <input type='submit' value='Edit Page' class="btn btn-info"> 
+        </form>
+    </div>
+
+{% endblock %}

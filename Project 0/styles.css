@@ -1,0 +1,247 @@
+body{
+    font-family: arial, sans-serif;
+}
+
+.headSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-right: 48px; 
+    margin-top: 60px;  
+}
+
+.google-img{
+    max-height: 200px;
+    max-width: 500px;
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.search-form{
+    padding: 20px;
+}
+
+.square-search{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: white;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 584px;
+    max-width: 584px;
+}
+
+.searchimg{
+    margin: 9.673px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.border-search{
+    width: auto;
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.center-bottom{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.feeling-lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.subHeader{
+    border-bottom: 1px solid gray;
+}
+.headerAdvanced{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: small;
+}
+
+.advanced-body{
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.google-img-little{
+    display: inline-block;
+    height: auto;
+    width: 70px;
+}
+
+#advancedText{
+    color: rgb(221, 76, 76) ;
+    margin: 25px 35px 25px 35px;
+
+}
+
+.optionsHeader{
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+}
+
+.inputOpts{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.option{
+    width: 200px;
+    font-size: 13px;
+}
+.diffInputs{
+    min-width: 167px;
+    width: 50%;
+}
+
+.toDohead{
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.toDo{
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 12px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.diffInputs > input{
+    border-radius: 1px;
+    border: 1px solid rgb(161, 161, 161);
+    border-top: 1px solid rgb(73, 73, 73);
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    text-align: left;
+    width: 100%;
+}
+
+span{
+    color: #555;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.inputOpts > .advancedButton{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+    width: 50%;
+}
+
+.advancedButton > input{
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    color: #fff;
+    font-size: 11px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    outline: 0;
+    height: 30px;
+    min-width: 54px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
